@@ -28,10 +28,10 @@ function App() {
   }, [iframeRef.current]);
 
   return (
-    <div>
+    <div style={{ height: "100vh", width: "100vw", overflow: "hidden" }}>
       <iframe
         ref={iframeRef}
-        style={{ height: "100vh", width: "100vw" }}
+        style={{ height: "100vh", width: "100vw", border: "none" }}
         src="http://localhost:5173/"
       />
     </div>
