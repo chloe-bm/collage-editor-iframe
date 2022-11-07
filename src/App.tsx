@@ -32,7 +32,7 @@ function App() {
       <iframe
         ref={iframeRef}
         style={{ height: "100vh", width: "100vw", border: "none" }}
-        src="http://localhost:5173/"
+        src="https://collage-editor.vercel.app/"
       />
     </div>
   );
